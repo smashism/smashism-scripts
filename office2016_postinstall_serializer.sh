@@ -15,6 +15,6 @@ install_dir=`dirname $0`
 
 # Run VL Serializer pkg
 
-/usr/sbin/installer -dumplog -verbose -pkg $install_dir/"Microsoft_Office_2016_VL_Serializer.pkg"
+/usr/sbin/installer -dumplog -verbose -pkg $install_dir/"Microsoft_Office_2016_VL_Serializer.pkg" -target "$3"
 
 exit 0
